@@ -77,6 +77,18 @@ cd tutorials/tcc3
 ./Allrun
 ```
 
+### 3. TCC3 with H2 combustion and water injection (tcc3_comb)
+
+Variant of TCC3 running the OpenFOAM 14 `XiFluid` combustion module with a
+stoichiometric H2/air charge, steam (water) injection at the intake and spark
+ignition. See [tutorials/tcc3_comb/README.md](tutorials/tcc3_comb/README.md).
+
+```bash
+cd tutorials/tcc3_comb
+./Allmesh
+./Allrun
+```
+
 ## Case Setup: TCC-III Engine
 AATE includes an engine simulation setup for the TCC-III, a spark ignition 4-stroke 2-valve optical engine developed by the University of Michigan.
 
